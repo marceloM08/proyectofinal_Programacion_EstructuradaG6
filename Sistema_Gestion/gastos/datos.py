@@ -1,7 +1,7 @@
 #Se llaman las funciones desde la carpeta de estructuras. 
-from estructuras.cola import crear_cola
-from estructuras.pila import crear_pila
-from estructuras.lista_doble import crear_lista
+from cola import crear_cola
+from pila import crear_pila
+from lista_doble import crear_lista
 #se marcan las categorias de gastos que se pueden agregar al sistema.
 categories = ["Comida", "Transporte", "Servicios", "Ocio", "Salud", "Otros"]
 

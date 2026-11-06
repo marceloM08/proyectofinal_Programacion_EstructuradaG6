@@ -1,7 +1,7 @@
-from estructuras.cola import encolar, desencolar
-from estructuras.pila import apilar, desapilar
+from cola import encolar, desencolar
+from pila import apilar, desapilar
 from datos import crear_gasto
-from estructuras.lista_doble import insertar_final, eliminar, a_lista
+from lista_doble import insertar_final, eliminar, a_lista
 
 def capturar_datos(estado, monto, descripcion, fecha): #El capturar_datos crea un gasto con los datos proporcionados y lo encola en la lista de pendientes del estado.
     gasto = crear_gasto(monto, descripcion, fecha)
