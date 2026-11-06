@@ -1,10 +1,12 @@
-#Aqui se marcan las clasificaciones de cada gasto.
+#Se llaman las funciones desde la carpeta de estructuras. 
 from estructuras.cola import crear_cola
 from estructuras.pila import crear_pila
 from estructuras.lista_doble import crear_lista
+#se marcan las categorias de gastos que se pueden agregar al sistema.
 categories = ["Comida", "Transporte", "Servicios", "Ocio", "Salud", "Otros"]
 
-contador = {"id": 0}
+contador = {"id": 0} #El contador se utiliza para asignar un ID único a cada gasto creado. Se inicializa en 0 y se incrementa cada vez que se crea un nuevo gasto.
+
 
 def crear_gasto(monto, descripcion, fecha, categorias = None):
     contador["id"] += 1
